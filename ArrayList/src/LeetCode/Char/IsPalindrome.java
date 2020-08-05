@@ -3,7 +3,8 @@ package LeetCode.Char;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-/**题目：验证回文字符串 ->是一个正读和反读都一样的字符串
+/**125
+ * 题目：验证回文字符串 ->是一个正读和反读都一样的字符串
      *给定一个字符串，验证它是否是回文串，只考虑字母和数字字符，可以忽略字母的大小写。
  * 示例：
      * 输入: "A man, a plan, a canal: Panama"          输入: "race a car"

@@ -76,4 +76,33 @@ public class TwoSum {
         }
         throw new IllegalArgumentException("No two sum solution");
     }
+    /**
+     * 网上学习 数组从1开始
+     * 注意问题，如果没有解怎么办？出现多个解又该如何？  还是要考虑的全面
+     *
+     * 对撞指针方法
+     * 头尾各定义一个指针i,j
+     * 当i+j==target  直接返回
+     * 当i+j<target  i++
+     * 当i+j>target j--
+     */
+    public int[] twoSum2(int[] numbers, int target) {
+        int i = 0, j = numbers.length - 1,res;
+        int[] nums =new int[2];
+        while (i < j) {
+            res = numbers[i] + numbers[j];
+            if (res == target){
+                nums[0] = ++i;
+                nums[1] = ++j;
+                return nums;
+            }
+            if (res < target){
+                i++;
+            }
+            if (res > target){
+                j--;
+            }
+        }
+        return nums;
+    }
 }

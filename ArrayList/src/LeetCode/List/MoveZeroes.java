@@ -27,7 +27,7 @@ public class MoveZeroes {
     public static void main(String[] args) {
         int[] n1 = {0,1,0,3,12,1};
         MoveZeroes m = new MoveZeroes();
-        m.moveZeroes(n1);
+        m.moveZeroes1(n1);
         System.out.println(Arrays.toString(n1));
 
     }
