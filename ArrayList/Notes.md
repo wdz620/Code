@@ -41,3 +41,14 @@ Ctrl+Shift+Up/Down，向上/下移动语句。
 双击异常 + Alt + Enter。 抛出异常.
 
 Ctrl+Shift+Enter 行尾加分号/光标切换到下一行
+
+#双索引
+moveZeroes1、RemoveElement、RemoveDuplicates_I、RemoveDuplicates_II、Merge（hard）
+#对撞指针
+TwoSum、MaxArea、ReverseVowels
+#滑动窗口（解决连续问题）
+主要就是利用两个指针不断寻找的过程
+技巧：刚开始窗口没有元素，所以右指针为-1，并且刚开始应将数组定制为比长度还多一个！
+详见209
+3：i dont understand this answer！！！
+练习：438、76（hard）

@@ -9,37 +9,38 @@ package Offer.List;
 public class Find {
     public static void main(String[] args) {
         int[][] arr = {
-                {1, 2, 8, 9},
-                {2, 4, 9, 12},
-                {4, 7, 10, 13},
-                {6, 8, 11, 15}
+                {1,4,7,11,15},
+                {2,5,8,12,19},
+                {3,6,9,16,22},
+                {10,13,14,17,24},
+                {18,21,23,26,30}
         };
-        System.out.println(find03(arr, 7));
+        //18 10 13 6 9 16 12 11
+        System.out.println(find0(arr, 11));
+        //行列
+//        System.out.println(arr[arr.length-1][0]);
+//        System.out.println(find0(arr,5));
 
     }
-
     /**
-     * 网上参考
+     * 自答 用例    [[-5]]  -5 失败！
      */
-    public boolean find(int target, int[][] array) {
-        /*
-        思路：从左下角（或者右上角）开始查找，因为该行右边大于它，上边小于它，每次比较可以删除某一行或者某一列
-        注意：左上和右下不可以，因为无法减小问题规模（行和列都无法删除）
-        */
-        if (array == null)
-            return false;
-        int row = array.length; //行数
-        int col = array[0].length; //列数
-        for (int i = row - 1, j = 0; i >= 0 && j < col; ) { //从左下角开始查找
-            if (array[i][j] == target) //找到
-                return true;
-            else if (array[i][j] > target) //不可能在该行，跳过该行
-                i--;
-            else //不可能在该列，跳过该列
-                j++;
+    public static boolean find0(int[][] array, int target) {
+        if (array == null || array.length==0) return false;
+        //定义行，列。起始点在左下角
+        int row = array.length, col = array[0].length;
+        System.out.println(row+"->"+ col);
+//        System.out.println(array[row-1][col-1]);
+        int i = row - 1, j = 0;
+        while (i >= 0 && j < col) {
+            System.out.println(array[i][j]);
+            if (array[i][j] == target) return true;
+            if (array[i][j] > target) i--;
+            else j++;
         }
         return false;
     }
+
 
     /**
      * 剑指Offer：解法一:双指针，时间复杂度：O（mn），空间复杂度：O（1）

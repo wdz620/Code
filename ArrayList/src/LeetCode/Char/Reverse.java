@@ -21,13 +21,9 @@ import java.util.Arrays;
 public class Reverse {
     public static void main(String[] args) {
         Reverse r = new Reverse();
-//        int num = -123;
-//        int reverse = r.reverse(num);
-//        System.out.println(reverse);
-
-
         //官方测试
-        System.out.println(r.reverse0(-123));
+        System.out.println(r.reverse1(1534236469));
+
     }
 
     /**
@@ -100,7 +96,11 @@ public class Reverse {
     }
 
     /**
-     * net Solution
+     * net Solution 123
+     * 学习到：
+     *      int数值范围[-2^31 ~ 2^32-1] 也就是 [-2147483648, 2147483647]
+     *      当超过最大值，比如到2147483647+1 就变成 -2147483648,即循环赋值，一旦超出就循环到最小的值，以此类推。
+     *      long数值范围[-2^63 ~ 2^63-1] 也就是[-9223372036854775808,9223372036854775807]
      */
     public int reverse1(int x){
         long n = 0;

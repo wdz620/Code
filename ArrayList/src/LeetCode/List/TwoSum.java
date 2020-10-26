@@ -27,8 +27,10 @@ public class TwoSum {
         int[] nums = {-1,-2,-3,-4,-5};
         int target = -8;
         TwoSum t = new TwoSum();
-        int[] ints = t.twoSum(nums, target);
+        int[] ints = t.twoSum1(nums, target);
         System.out.println(Arrays.toString(ints));
+        System.out.println("============================");
+
     }
 
     /**

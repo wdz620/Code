@@ -6,7 +6,7 @@ import java.util.Stack;
 /**
  * @Author: Wdz
  * @Date 2020/7/4 11:42
- * @Description:从尾到头打印链表  TODO 链表还是不太懂
+ * @Description:从尾到头打印链表
  * 输入一个链表，按链表值从尾到头的顺序返回一个ArrayList。
  * 思路： 借助栈实现，或使用递归的方法
  */
@@ -71,11 +71,13 @@ public class PrintListFromTailToHead {
         return list;
     }
 
-}
-class ListNode{
-    int val;
-    ListNode next = null;
-    ListNode(int val){
-        this.val = val;
+    private static class ListNode{
+        int val;
+        ListNode next = null;
+        ListNode(int val){
+            this.val = val;
+        }
     }
+
 }
+
