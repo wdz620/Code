@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad8bab03-3fd7-410d-97e2-7a4d8b404e85" name="Default Changelist" comment="String的几个方法">
+      <change afterPath="$PROJECT_DIR$/out/production/ArrayList/realtest/KS_06.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ArrayList/realtest/ZJTD_B站.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayList/src/cn/netstudy/streams/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList/src/cn/netstudy/streams/StreamTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ArrayList/src/leetcode/List/MaxProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList/src/leetcode/List/MaxProfit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArrayList/LeetCode/List/MaxProfit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArrayList/LeetCode/List/MaxProfit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArrayList/realtest/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArrayList/realtest/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayList/src/offer/List/MovingCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList/src/offer/List/MovingCount.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +99,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ZJTD_B站">
+  <component name="RunManager" selected="Application.MovingCount">
     <configuration name="KS_06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="realtest.KS_06" />
       <module name="ArrayList" />
@@ -111,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Char.LongestPalindrome" />
+    <configuration name="KS_35" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="realtest.KS_35" />
       <module name="ArrayList" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.Char.*" />
+          <option name="PATTERN" value="realtest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.List.MaxProfit" />
+    <configuration name="MovingCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offer.List.MovingCount" />
       <module name="ArrayList" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.List.*" />
+          <option name="PATTERN" value="offer.List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MovingCount" />
+        <item itemvalue="Application.KS_35" />
         <item itemvalue="Application.ZJTD_B站" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.KS_06" />
-        <item itemvalue="Application.MaxProfit" />
-        <item itemvalue="Application.LongestPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -319,7 +321,8 @@
       <workItem from="1610071431354" duration="19857000" />
       <workItem from="1610198127811" duration="5634000" />
       <workItem from="1610335596597" duration="6070000" />
-      <workItem from="1610543079821" duration="8509000" />
+      <workItem from="1610543079821" duration="8672000" />
+      <workItem from="1610587836897" duration="10151000" />
     </task>
     <task id="LOCAL-00001" summary="第二次提交">
       <created>1595298080527</created>
@@ -349,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610201186576</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="根据B站左神学算法(字节题目)">
+      <created>1610551895426</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610551895426</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,7 +393,8 @@
     <MESSAGE value="冲突测试" />
     <MESSAGE value="LeetCode学习3-7之前" />
     <MESSAGE value="String的几个方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="String的几个方法" />
+    <MESSAGE value="根据B站左神学算法(字节题目)" />
+    <option name="LAST_COMMIT_MESSAGE" value="根据B站左神学算法(字节题目)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -417,6 +428,11 @@
           <url>file://$PROJECT_DIR$/ArrayList/src/offer/List/CutRope.java</url>
           <line>14</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ArrayList/src/offer/List/MovingCount.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
