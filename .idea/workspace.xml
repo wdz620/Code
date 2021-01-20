@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad8bab03-3fd7-410d-97e2-7a4d8b404e85" name="Default Changelist" comment="String的几个方法">
-      <change afterPath="$PROJECT_DIR$/out/production/ArrayList/realtest/KS_06.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ArrayList/realtest/ZJTD_B站.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ArrayList/src/cn/netstudy/streams/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList/src/cn/netstudy/streams/StreamTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ArrayList/src/leetcode/List/MaxProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList/src/leetcode/List/MaxProfit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArrayList/src/offer/List/MovingCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList/src/offer/List/MovingCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArrayList/realtest/KS_35.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArrayList/realtest/KS_35.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArrayList/realtest/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArrayList/realtest/Main.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,33 +98,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MovingCount">
-    <configuration name="KS_06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="realtest.KS_06" />
-      <module name="ArrayList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="realtest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KS_35" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="realtest.KS_35" />
-      <module name="ArrayList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="realtest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="realtest.Main" />
       <module name="ArrayList" />
@@ -139,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovingCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offer.List.MovingCount" />
+    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offer.String.Permutation" />
       <module name="ArrayList" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="offer.List.*" />
+          <option name="PATTERN" value="offer.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZJTD_B站" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="realtest.ZJTD_B站" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="realtest.Solution" />
       <module name="ArrayList" />
       <extension name="coverage">
         <pattern>
@@ -165,13 +138,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringLearn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offer.String.StringLearn" />
+      <module name="ArrayList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="offer.String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YueSeFu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offer.Other.YueSeFu" />
+      <module name="ArrayList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="offer.Other.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MovingCount" />
-        <item itemvalue="Application.KS_35" />
-        <item itemvalue="Application.ZJTD_B站" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.KS_06" />
+        <item itemvalue="Application.YueSeFu" />
+        <item itemvalue="Application.StringLearn" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +321,9 @@
       <workItem from="1610198127811" duration="5634000" />
       <workItem from="1610335596597" duration="6070000" />
       <workItem from="1610543079821" duration="8672000" />
-      <workItem from="1610587836897" duration="10151000" />
+      <workItem from="1610587836897" duration="14327000" />
+      <workItem from="1610848187057" duration="10717000" />
+      <workItem from="1610969162497" duration="30929000" />
     </task>
     <task id="LOCAL-00001" summary="第二次提交">
       <created>1595298080527</created>
@@ -359,7 +360,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610551895426</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="机器人移动问题">
+      <created>1610791469714</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610791469714</updated>
+    </task>
+    <task id="LOCAL-00007" summary="机器人问题KS">
+      <created>1610791546920</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610791546920</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +409,9 @@
     <MESSAGE value="LeetCode学习3-7之前" />
     <MESSAGE value="String的几个方法" />
     <MESSAGE value="根据B站左神学算法(字节题目)" />
-    <option name="LAST_COMMIT_MESSAGE" value="根据B站左神学算法(字节题目)" />
+    <MESSAGE value="机器人移动问题" />
+    <MESSAGE value="机器人问题KS" />
+    <option name="LAST_COMMIT_MESSAGE" value="机器人问题KS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

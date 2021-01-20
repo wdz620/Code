@@ -1,5 +1,7 @@
 package leetcode.List;
 
+import java.util.Arrays;
+
 /**
  * @Author: Wdz
  * @Date 2020/11/20 9:18
@@ -43,6 +45,14 @@ public class MaxProfit {
     public static void main(String[] args) {
         int[] prices = {7, 6, 4, 3, 1};
         System.out.println(maxProfit(prices));
+        String s = "3,-5,7,-2,8";
+        String[] split =s.split(",");
+        int[] nums = new int[split.length];
+        for (int i = 0; i < split.length; i++) {
+            nums[i] = Integer.valueOf(split[i]);
+        }
+        System.out.println(Arrays.toString(nums));
+
     }
 
     // 暴力解法
@@ -63,5 +73,41 @@ public class MaxProfit {
         }
         return res;
     }
-    //
+    // 一次遍历
+    public int maxProfit2(int prices[]) {
+        int minprice = Integer.MAX_VALUE;
+        int maxprofit = 0;
+        for (int i = 0; i < prices.length; i++) {
+            if (prices[i] < minprice) {
+                minprice = prices[i];
+            } else if (prices[i] - minprice > maxprofit) {
+                maxprofit = prices[i] - minprice;
+            }
+        }
+        return maxprofit;
+    }
+
+    // 动态规划
+    public int maxProfit3(int[] prices) {
+        int len = prices.length;
+        // 特殊判断
+        if (len < 2) {
+            return 0;
+        }
+        int[][] dp = new int[len][2];
+
+        // dp[i][0] 下标为 i 这天结束的时候，不持股，手上拥有的现金数
+        // dp[i][1] 下标为 i 这天结束的时候，持股，手上拥有的现金数
+
+        // 初始化：不持股显然为 0，持股就需要减去第 1 天（下标为 0）的股价
+        dp[0][0] = 0;
+        dp[0][1] = -prices[0];
+
+        // 从第 2 天开始遍历
+        for (int i = 1; i < len; i++) {
+            dp[i][0] = Math.max(dp[i - 1][0], dp[i - 1][1] + prices[i]);
+            dp[i][1] = Math.max(dp[i - 1][1], -prices[i]);
+        }
+        return dp[len - 1][0];
+    }
 }
